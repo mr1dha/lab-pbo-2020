@@ -2,10 +2,8 @@ import java.util.Scanner;
 
 public class Bank {
 	public static void main(String[] args) {
-		AkunBank akun = new AkunBank(50);
+		AkunBank akun = new AkunBank();
 		Scanner in = new Scanner(System.in);
-
-
 
 		while(true) {
 			System.out.println("\n==================");

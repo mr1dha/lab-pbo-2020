@@ -27,5 +27,32 @@ Spesifikasi:
 2. Hero dapat menyerang
 	-> Setiap serangan mengurangi HP lawan sebanyak AP penyerang
 3. Hero dapat melakukan Healing (penyembuhan)
+	-> Setiap kali healing maka HP bertambah 10
 
 Challenge : Buat sistem Multiplayer yang menyerang secara bergantian
+
+
+------------------------------------
+	Hero
+------------------------------------
+- hp : int
+- ap : int
+- nama : String
+------------------------------------
++ Hero (nama : String, ap : int)
++ getHp() : int
++ setHp(hp: int) : void
++ getAp() : int
++ getNama() : String
++ serang(target : Hero) : void
++ healing () : void;
++ toString() : String
+-------------------------------------
+
+
+--------------------------------------
+	Game
+--------------------------------------
+--------------------------------------
++ main (args : String[]) : void
+--------------------------------------

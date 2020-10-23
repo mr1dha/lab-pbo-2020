@@ -1,6 +1,7 @@
 public class AkunBank {
 	// Attribute
 	private int saldo;
+	private int pin;
 
 	// Method
 	// Constructor
