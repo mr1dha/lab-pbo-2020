@@ -29,7 +29,7 @@ public class Hero {
 		target.setHp (target.getHp() - this.ap);
 
 		System.out.println(this.nama + " Menyerang " + target.getNama());
-		System.out.println("Hp "+ target.getNama() + " Berkurang "+ this.ap);
+		System.out.println("Hp "+ target.getNama() + " Berkurang Sebanyak"+ this.ap);
 		System.out.println(target);
 
 		if ( target.getHp() <= 0) {
@@ -40,7 +40,7 @@ public class Hero {
 	public void healing() {
 		this.setHp(this.getHp() + 10);
 
-		System.out.println("Hero "+ this.getNama()+ " Melakukan healing");
+		System.out.println("Hero "+ this.getNama()+ " Melakukan healing, HP bertambah 10");
 		System.out.println(this);
 
 		if(this.getHp() > 100)
