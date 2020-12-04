@@ -23,4 +23,9 @@ public class AvatarSemuaElemen extends Avatar implements Api, Air, Angin, Tanah 
 	public void serangTanah() {
 		System.out.println("Serangan Tanah !! Grrrrr!");
 	}
+
+	@Override
+	public void tembakBolaApi() {
+		System.out.println("Menembakkan Bola Api !!");
+	}
 }
